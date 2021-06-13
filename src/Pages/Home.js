@@ -11,7 +11,7 @@ export default function Home() {
 
                     {/*  Page content */}
                     <main className="flex-grow bg-white z-40">
-                        otherr
+                        Coming soon
                         {/*  Page sections */}
 
                     </main>
