@@ -2,7 +2,7 @@ import Wave from "../Svg/Wave";
 
 export default function Hero() {
     return (
-        <main className="flex flex-col justify-center items-center px-4 pb-6 lg:px-20 py-16 h-full">
+        <main className="flex flex-col justify-center items-center px-4 pb-6 lg:px-20 py-8 md:py-16 h-full">
             <div className="text-center">
                 <h1 className="text-5xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-7xl lg:text-8xl space-y-3">
                     <span className="block">
