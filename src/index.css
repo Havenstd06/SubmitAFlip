@@ -77,4 +77,12 @@
         font-weight: 500;
         font-style: normal;
     }
+
+    /* Custom CSS */
+    .small-border {
+        background-image: url('./Assets/Images/small-border.png');
+        background-size: 25px 3px;
+        background-repeat: no-repeat;
+        background-position: 0 100%;
+    }
 }
