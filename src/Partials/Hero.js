@@ -25,7 +25,7 @@ export default function Hero() {
                         No strings attached.
                     </span>
                 </p>
-                <div className="mt-5 sm:flex sm:justify-center md:mt-8">
+                <div className="mt-20 sm:flex sm:justify-center md:mt-8">
                     <a
                         href="#"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-maldive hover:bg-maldive-dark md:py-3 md:text-lg md:px-10"
