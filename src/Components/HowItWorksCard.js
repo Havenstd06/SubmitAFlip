@@ -15,7 +15,7 @@ const HowItWorksCard = (props) => {
                         {title}
                     </h4>
 
-                    <p className={"text-gray-400 mt-3 "}>
+                    <p className={"text-gray-400 mt-3"}>
                         {description}
                     </p>
                 </div>

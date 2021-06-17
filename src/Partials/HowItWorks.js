@@ -19,7 +19,7 @@ function HowItWorks({ id = null }) {
                     How It Works
                 </h1>
 
-                <div className="lg:flex space-y-6 lg:space-y-0 justify-between w-full mt-12 mx-0 md:mx-4">
+                <div className="lg:flex space-y-6 lg:space-y-0 justify-between w-full my-12">
 
                     <Fade cascade>
 

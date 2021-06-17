@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Partials/Header";
 import Flips from "../Partials/Flips";
 import HowItWorks from "../Partials/HowItWorks";
+import Choose from "../Partials/Choose";
 
 export default function Home() {
     return (
@@ -12,11 +13,14 @@ export default function Home() {
 
                 {/*  Page content */}
                 <main className="flex-grow z-40">
+
                     {/*  Page sections */}
 
                     <Flips id="flips"/>
 
                     <HowItWorks id="howItWorks" />
+
+                    <Choose id="choose" />
 
                 </main>
 
