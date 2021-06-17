@@ -20,7 +20,7 @@ function Choose({ id = null }) {
                         Why <span className="text-maldive">choose</span> us?
                     </h1>
 
-                    <h3 className="mt-3 text-gray-600 text-center">
+                    <h3 className="mt-3 text-gray-600 text-center" data-aos="zoom-y-out" data-aos-delay="350">
                         All your information is safe with us until a price is agreed beforehand. We don’t share or use ANY of your submissions without paying you first.
                     </h3>
 
