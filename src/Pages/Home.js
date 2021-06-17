@@ -1,26 +1,28 @@
 import React from "react";
-import Header from "../Components/Header";
-import Flips from "../Components/Flips";
+import Header from "../Partials/Header";
+import Flips from "../Partials/Flips";
+import HowItWorks from "../Partials/HowItWorks";
 
 export default function Home() {
     return (
         <div className="bg-gray-50">
-            <div className="application">
-                <div className="flex flex-col min-h-screen overflow-hidden">
-                    {/*  Site header */}
-                    <Header id="header" />
+            <div className="flex flex-col min-h-screen overflow-hidden">
+                {/*  Site header */}
+                <Header id="header" />
 
-                    {/*  Page content */}
-                    <main className="flex-grow bg-gray-50 z-40">
-                        <Flips />
-                        {/*  Page sections */}
+                {/*  Page content */}
+                <main className="flex-grow z-40">
+                    {/*  Page sections */}
 
-                    </main>
+                    <Flips id="flips"/>
 
-                    {/*  Site footer */}
-                    {/*<Footer id="footer" />*/}
+                    <HowItWorks id="howItWorks" />
 
-                </div>
+                </main>
+
+                {/*  Site footer */}
+                {/*<Footer id="footer" />*/}
+
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
-import Navbar from "../Partials/Navbar";
-import Hero from "../Partials/Hero";
-import HeroBackground from "./Background/HeroBackground";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import HeroBackground from "../Components/Background/HeroBackground";
 
 function Header({ id = null }) {
     return (

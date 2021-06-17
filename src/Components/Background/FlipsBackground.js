@@ -1,6 +1,4 @@
-import Cross from "../../Svg/Cross";
 import Circle from "../../Svg/Circle";
-import Rectangle from "../../Svg/Rectangle";
 
 export default function FlipsBackground() {
     return (

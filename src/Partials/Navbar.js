@@ -1,7 +1,7 @@
 import {Fragment} from "react";
 import {Disclosure, Transition} from "@headlessui/react";
 import Logo from "../Svg/Logo";
-import {MenuIcon, XIcon} from "@heroicons/react/outline";
+import {MenuIcon} from "@heroicons/react/outline";
 
 export default function Navbar() {
     return (

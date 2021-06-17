@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
 
-import FlipsBackground from "./Background/FlipsBackground";
-import FlipsCard from "./FlipsCard";
-import ListsCard from "./ListsCard";
+import FlipsBackground from "../Components/Background/FlipsBackground";
+import FlipsCard from "../Components/FlipsCard";
+import ListsCard from "../Components/ListsCard";
 
 import ProfitableFlips from "../Assets/Images/ProfitableFlips.png";
 import PriceFlips from "../Assets/Images/PriceFlips.png";
@@ -68,7 +68,7 @@ function Flips({ id = null }) {
     };
 
     return (
-        <section className="relative pt-6 pb-12 sm:pb-24" id={id}>
+        <section className="relative bg-gray-50 md:min-h-screen overflow-hidden pt-6 pb-12 sm:pb-24" id={id}>
             <FlipsBackground />
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6 z-50">
