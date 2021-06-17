@@ -34,7 +34,15 @@ function Flips({ id = null }) {
         centerPadding: "0",
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                }
+            },
+            {
+                breakpoint: 1051,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -42,7 +50,7 @@ function Flips({ id = null }) {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 760,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -95,7 +103,7 @@ function Flips({ id = null }) {
 
             </div>
 
-            <div className="my-16 px-4">
+            <div className="my-16 md:my-24 px-4">
                 <Fade>
                     <Slider
                         {...settings}
