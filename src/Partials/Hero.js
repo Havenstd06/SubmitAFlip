@@ -27,7 +27,8 @@ export default function Hero() {
                 </p>
                 <div className="mt-20 sm:flex sm:justify-center md:mt-8">
                     <a
-                        href="#"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdOt3eZEWV6DMI5EB3OwvpGlRQQ9yXdvErLum2HzcoNzunhRg/viewform?usp=sf_link"
+                        target="_blank"
                         className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-maldive hover:bg-maldive-dark md:py-3 md:text-lg md:px-10"
                     >
                         Submit A Flip

@@ -3,6 +3,7 @@ import Header from "../Partials/Header";
 import Flips from "../Partials/Flips";
 import HowItWorks from "../Partials/HowItWorks";
 import Choose from "../Partials/Choose";
+import Footer from "../Partials/Footer";
 
 export default function Home() {
     return (
@@ -25,7 +26,7 @@ export default function Home() {
                 </main>
 
                 {/*  Site footer */}
-                {/*<Footer id="footer" />*/}
+                <Footer id="footer" />
 
             </div>
         </div>

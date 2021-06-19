@@ -26,6 +26,7 @@ export default function Navbar() {
                                 </div>
                             </div>
                             <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 space-x-8">
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a
                                     href="#"
                                     className="small-border inline-block text-base font-bold text-black hover:text-gray-800"
@@ -34,8 +35,9 @@ export default function Navbar() {
                                 </a>
 
                                 <a
-                                    href="#"
-                                    className="inline-block bg-maldive hover:bg-maldive-dark py-1 px-5 border border-transparent rounded-xl text-base font-medium text-white transition duration-200 ease-in-out"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdOt3eZEWV6DMI5EB3OwvpGlRQQ9yXdvErLum2HzcoNzunhRg/viewform?usp=sf_link"
+                                    target="_blank"
+                                    className="inline-block bg-maldive hover:bg-maldive-dark py-1 px-5 border border-transparent rounded-xl text-base font-medium text-white transition duration-200 ease-in-out" rel="noreferrer"
                                 >
                                     Submit
                                 </a>
@@ -59,6 +61,7 @@ export default function Navbar() {
                         >
                             <div className="overflow-hidden">
                                 <div className="px-2 pt-2 pb-3 flex flex-col justify-center items-center space-y-4">
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                     <a
                                         href="#"
                                         className="inline-block text-base font-medium text-black hover:text-gray-800"
@@ -67,8 +70,9 @@ export default function Navbar() {
                                     </a>
 
                                     <a
-                                        href="#"
-                                        className="inline-block rounded-xl text-base font-medium text-maldive transition duration-200 ease-in-out"
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSdOt3eZEWV6DMI5EB3OwvpGlRQQ9yXdvErLum2HzcoNzunhRg/viewform?usp=sf_link"
+                                        target="_blank"
+                                        className="inline-block rounded-xl text-base font-medium text-maldive transition duration-200 ease-in-out" rel="noreferrer"
                                     >
                                         Submit A Flip
                                     </a>

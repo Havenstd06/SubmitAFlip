@@ -12,7 +12,7 @@ export default function ChooseBackground() {
                 />
 
                 <Cross
-                    className="absolute left-0 bottom-0 transform w-4 h-auto md:w-10 md:h-10 translate-x-12 -translate-y-56 md:translate-x-24 lg:translate-x-40 md:-translate-y-64"
+                    className="absolute left-0 bottom-0 transform w-4 h-auto md:w-10 md:h-10 translate-x-12 -translate-y-56 md:translate-x-24 lg:translate-x-40 md:-translate-y-96"
                 />
             </div>
         </div>
