@@ -17,19 +17,21 @@ function Choose({ id = null }) {
 
                 <div className="max-w-xl mx-auto px-4 sm:px-6 pb-12">
 
-                    <h1 className="text-gray-900 text-4xl font-bold text-center uppercase pt-4" data-aos="zoom-y-out" data-aos-delay="250">
-                        Why <span className="text-maldive">choose</span> us?
-                    </h1>
+                    <Fade>
+                        <h1 className="text-gray-900 text-4xl font-bold text-center uppercase pt-4" data-aos="zoom-y-out" data-aos-delay="250">
+                            Why <span className="text-maldive">choose</span> us?
+                        </h1>
 
-                    <h3 className="mt-3 text-gray-600 text-center" data-aos="zoom-y-out" data-aos-delay="350">
-                        All your information is safe with us until a price is agreed beforehand. We don’t share or use ANY of your submissions without paying you first.
-                    </h3>
+                        <h3 className="mt-3 text-gray-600 text-center" data-aos="zoom-y-out" data-aos-delay="350">
+                            All your information is safe with us until a price is agreed beforehand. We don’t share or use ANY of your submissions without paying you first.
+                        </h3>
+                    </Fade>
 
                 </div>
 
                 <div className="mt-0 md:mt-16 lg:mt-24">
 
-                    <Fade cascade>
+                    <Fade>
 
                         <div className="bg-maldive bg-opacity-10">
                             <div className="max-w-5xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">

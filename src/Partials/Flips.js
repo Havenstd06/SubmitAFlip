@@ -16,6 +16,10 @@ import Playstation5 from "../Assets/Images/Playstation5.png";
 import UberEats from "../Assets/Images/UberEats.png";
 import WWIICoin from "../Assets/Images/WWIICoin.png";
 import AirpodsPro from "../Assets/Images/AirpodsPro.png";
+import SpaldingBall from "../Assets/Images/SpaldingBall.png";
+import BowflexCurlBar from "../Assets/Images/BowflexCurlBar.png";
+import GhostFunkoPop from "../Assets/Images/GhostFunkoPop.png";
+import BadBunnyTicket from "../Assets/Images/BadBunnyTicket.png";
 
 
 function Flips({ id = null }) {
@@ -103,7 +107,7 @@ function Flips({ id = null }) {
 
             </div>
 
-            <div className="my-16 md:my-24 px-4">
+            <div className="my-16 md:my-24 px-4 md:px-0">
                 <Fade>
                     <Slider
                         {...settings}
@@ -135,8 +139,32 @@ function Flips({ id = null }) {
 
                         <ListsCard img={AirpodsPro}
                                    title="Free Airpods Pros"
-                                   desc1="Our Cost: $0"
+                                   desc1="Our Cost: FREE"
                                    desc2="MSRP: $250"
+                        />
+
+                        <ListsCard img={SpaldingBall}
+                                   title="Spalding Ball"
+                                   desc1="Retail: $400"
+                                   desc2="Resold @ $900+"
+                        />
+
+                        <ListsCard img={BowflexCurlBar}
+                                   title="Bowflex Curl Bar"
+                                   desc1="Our Cost: FREE"
+                                   desc2="MSRP: $250"
+                        />
+
+                        <ListsCard img={GhostFunkoPop}
+                                   title="Ghost Funko Pop"
+                                   desc1="Retail: $30"
+                                   desc2="Resell: $200+"
+                        />
+
+                        <ListsCard img={BadBunnyTicket}
+                                   title="Bad Bunny Ticket"
+                                   desc1="Retail: $200"
+                                   desc2="Resell: $1,500+"
                         />
 
                     </Slider>
